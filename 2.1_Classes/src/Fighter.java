@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 /**
  * Created by DK on 07.03.2017.
  */
@@ -34,5 +36,9 @@ public class Fighter {
     public void training() {
         strength++;
         tactics--;
+    }
+
+    public void addingWarrior(String name){
+        JOptionPane.showMessageDialog(null, "Dodanym wojownikiem jest" + name.getName());
     }
 }
