@@ -3,7 +3,7 @@
  */
 public class Room {
     private int number;
-    private boolean occupied = false;
+    public boolean occupied;
 
     public Room(int number, boolean occupied) {
         this.number = number;

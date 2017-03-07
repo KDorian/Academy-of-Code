@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c6945c-1763-45e3-b368-b906f5011c89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../2.1_Classes_2/src/Room.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes_2/out/production/2.1_Classes_2/Hotel.class" afterPath="$PROJECT_DIR$/../2.1_Classes_2/out/production/2.1_Classes_2/Hotel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes_2/out/production/2.1_Classes_2/Room.class" afterPath="$PROJECT_DIR$/../2.1_Classes_2/out/production/2.1_Classes_2/Room.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes_2/out/production/2.1_Classes_2/Run.class" afterPath="$PROJECT_DIR$/../2.1_Classes_2/out/production/2.1_Classes_2/Run.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1.1_Objects/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1.1_Objects/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1.2_Loops/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1.2_Loops/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1.3_Operations/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1.3_Operations/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../2.1_Classes/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes_2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../2.1_Classes_2/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes_2/src/Hotel.java" afterPath="$PROJECT_DIR$/../2.1_Classes_2/src/Hotel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes_2/src/Room.java" afterPath="$PROJECT_DIR$/../2.1_Classes_2/src/Room.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.1_Classes_2/src/Run.java" afterPath="$PROJECT_DIR$/../2.1_Classes_2/src/Run.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />

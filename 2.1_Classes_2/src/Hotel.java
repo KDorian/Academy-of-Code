@@ -8,7 +8,7 @@ public class Hotel {
 
     private Room[] rooms;
 
-//    Room ibis = new Room(1, false);
+    private int resevedRoom;
 
     public Hotel(String name, int numberOfRooms) {
         rooms = new Room[numberOfRooms];
@@ -19,11 +19,9 @@ public class Hotel {
             } else {
                 System.out.println("Room no. " + (i + 1) + " is not available.");
             }
-
         }
         this.name = name;
         this.numberOfRooms = numberOfRooms;
-
     }
 
     public String getName() {
@@ -37,6 +35,20 @@ public class Hotel {
     public void print() {
         System.out.println(name);
         System.out.println(" Number of rooms: " + numberOfRooms);
+    }
 
+    public void reserved(int reservedRoom) {
+        rooms[reservedRoom-1].occupied=true;
+    }
+
+    public void printAvailableRooms() {
+        for (int i = 0; i < numberOfRooms; i++) {
+
+            if (rooms[i].isOccupied() == false) {
+                System.out.println("Room no. " + (i+1) + " is available.");
+            } else {
+                System.out.println("Room no. " + (i+1) + " is not available.");
+            }
+        }
     }
 }

@@ -7,12 +7,15 @@ public class Run {
         Hotel ibis = new Hotel("Ibis", 10);
         Hotel gubus = new Hotel("Gubus", 5);
 
-//        ibis.reserved(2);
-//        ibis.reserved(5);
-//
-//        gubus.reserved(1);
-
         ibis.print();
         gubus.print();
+
+        ibis.reserved(2);
+        ibis.reserved(5);
+
+        gubus.reserved(1);
+
+        ibis.printAvailableRooms();
+        gubus.printAvailableRooms();
     }
 }
