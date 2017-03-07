@@ -30,5 +30,5 @@ public class Fighter {
     public int getTactics() {
         return tactics;
     }
-    
+
 }
