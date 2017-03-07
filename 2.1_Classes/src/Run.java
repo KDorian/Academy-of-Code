@@ -8,7 +8,14 @@ public class Run {
             Fighter andrew = new Fighter("Andrzej", 1000, 1000, 1000);
 
             showFigther(tyson);
+            showFigther(andrew);
 
+            andrew.training();
+            andrew.training();
+            andrew.training();
+            andrew.training();
+
+            showFigther(tyson);
             showFigther(andrew);
 
         }

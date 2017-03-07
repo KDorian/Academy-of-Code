@@ -31,4 +31,8 @@ public class Fighter {
         return tactics;
     }
 
+    public void training() {
+        strength++;
+        tactics--;
+    }
 }
