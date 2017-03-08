@@ -6,6 +6,6 @@ package model.interfaces;
 public interface Account {
     void gain();
     void interest();
-    int getAmount();
+    double getAmount();
     String getName();
 }

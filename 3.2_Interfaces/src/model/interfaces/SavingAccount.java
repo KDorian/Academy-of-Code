@@ -7,19 +7,19 @@ public class SavingAccount implements Account {
     private double amount;
     private String name;
 
-    public SavingAccount(String name) {
+    public SavingAccount(String name, double amount) {
         this.name = name;
-        amount = 0;
+        this.amount = amount;
     }
 
     @Override
     public void gain() {
-        amount = 0;
+        amount = amount + 12*2000;
     }
 
     @Override
     public void interest() {
-        amount = amount+(amount*0.1);
+        amount = amount + amount*0.1;
     }
 
     @Override

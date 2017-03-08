@@ -7,19 +7,20 @@ public class NormalAccount implements Account {
     private double amount;
     private String name;
 
-    public NormalAccount(String name) {
+    public NormalAccount(String name, double amount) {
         this.name = name;
-        amount = 0;
+        this.amount = amount;
+
     }
 
     @Override
     public void gain() {
-        amount += 6000;
+        amount = amount + 12*6000;
     }
 
     @Override
     public void interest() {
-        amount = 0;
+        amount = amount + amount*0.01;
     }
 
     @Override
