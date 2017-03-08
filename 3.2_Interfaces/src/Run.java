@@ -18,7 +18,7 @@ public class Run {
         bank.interest();
         bank.yearPassed();
 
-        Account money = bank.yearPassed();
-        System.out.println("The biggest aount of money is on: " + money.getName() + ".");
+        double money = bank.yearPassed();
+        System.out.println("The amount of money on your accounts is: " + money + ".");
     }
 }

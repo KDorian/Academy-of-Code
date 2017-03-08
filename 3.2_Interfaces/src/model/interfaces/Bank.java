@@ -23,14 +23,10 @@ public class Bank {
         }
     }
 
-    public Account yearPassed() {
-        double max = -100000;
-        Account money = null;
+    public double yearPassed() {
+        double money = 0;
         for (Account account : accounts) {
-            if (account.getAmount() > max) {
-                max = account.getAmount();
-                money = account;
-            }
+            money = money + account.getAmount();
         }
         return money;
     }
