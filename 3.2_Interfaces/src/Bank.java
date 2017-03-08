@@ -1,4 +1,4 @@
-package model.interfaces;
+import model.interfaces.Account;
 
 /**
  * Created by DK on 08.03.2017.

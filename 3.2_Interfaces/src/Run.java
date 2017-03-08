@@ -1,6 +1,5 @@
 import model.interfaces.SavingAccount;
 import model.interfaces.Account;
-import model.interfaces.Bank;
 import model.interfaces.NormalAccount;
 
 
