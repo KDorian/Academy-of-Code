@@ -10,6 +10,11 @@ public class Animal {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "This is " + type + " " + name;
+    }
+
     public String getType() {
         return type;
     }
