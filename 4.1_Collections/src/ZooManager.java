@@ -1,12 +1,11 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by DK on 09.03.2017.
  */
 public class ZooManager {
+
+    // Collections
 
     List<Animal> animalList = new ArrayList<>();
 
@@ -19,6 +18,8 @@ public class ZooManager {
            System.out.println(animalName);
        }
     }
+
+    // Maps
 
     private Map<String, Animal> typeToAnimal;
     private Map<String, Animal> nameToAnimal;
@@ -40,4 +41,8 @@ public class ZooManager {
     public Animal quickGetByName(String name) {
         return nameToAnimal.get(name);
     }
+
+    // Sets
+
+//    Set<Animal> animalSet = new Set<>;
 }

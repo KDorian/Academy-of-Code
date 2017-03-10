@@ -20,7 +20,7 @@ public class Run {
         zooManager.putAnimal(animal3);
         zooManager.putAnimal(animal4);
 
-//        ZooManager.print();
+//        zooManager.print();
 
         Animal animalHashed = zooManager.quickGetByName("Pipi");
         System.out.println(animalHashed.toString());
