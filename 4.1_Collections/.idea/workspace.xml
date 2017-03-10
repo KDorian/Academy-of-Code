@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccfd8db-a34e-4d48-a27d-57a89866a12b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/4.1_Collections/Run.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/4.1_Collections/ZooManager.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../5.1_JavaFX/out/production/5.1_JavaFX/Run.class" afterPath="$PROJECT_DIR$/../5.1_JavaFX/out/production/5.1_JavaFX/Run.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1.1_Objects/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1.1_Objects/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Run.java" afterPath="$PROJECT_DIR$/src/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ZooManager.java" afterPath="$PROJECT_DIR$/src/ZooManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../5.1_JavaFX/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../5.1_JavaFX/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../5.1_JavaFX/src/Run.java" afterPath="$PROJECT_DIR$/../5.1_JavaFX/src/Run.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

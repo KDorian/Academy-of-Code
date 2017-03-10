@@ -1,4 +1,5 @@
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -20,8 +21,8 @@ public class Run extends Application {
         primaryStage.show();
     }
 
-    private Parent createSceneGraph() {
-        Label label = new Label("Hello");
-        return label;
+    private Parent createSceneGraph() throws Exception {
+        Parent parent = FXMLLoader.load(getClass().getResource("FirstJavaControl.fxml"));
+        return parent;
     }
 }
