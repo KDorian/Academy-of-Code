@@ -1,3 +1,7 @@
+package zoomanager;
+
+import animal.Animal;
+
 import java.util.*;
 
 /**
@@ -9,7 +13,8 @@ public class ZooManager {
 
     List<Animal> animalList = new ArrayList<>();
 
-    void addAnimal(Animal animal) {
+    public void addAnimal(String animalType, String animalName, String animalSex) {
+        Animal animal = new Animal(animalType, animalName, animalSex);
         animalList.add(animal);
     }
 
@@ -44,5 +49,5 @@ public class ZooManager {
 
     // Sets
 
-//    Set<Animal> animalSet = new Set<>;
+//    Set<animal.Animal> animalSet = new Set<>;
 }

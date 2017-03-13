@@ -1,13 +1,17 @@
+package animal;
+
 /**
  * Created by DK on 09.03.2017.
  */
 public class Animal {
     private String type;
     private String name;
+    private String sex;
 
-    public Animal(String type, String name) {
+    public Animal(String type, String name, String sex) {
         this.type = type;
         this.name = name;
+        this.sex = sex;
     }
 
     @Override
@@ -21,5 +25,9 @@ public class Animal {
 
     public String getName() {
         return name;
+    }
+
+    public String getSex() {
+        return sex;
     }
 }
