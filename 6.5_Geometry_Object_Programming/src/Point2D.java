@@ -2,22 +2,19 @@
  * Created by DK on 14.03.2017.
  */
 public class Point2D {
-    protected int x = 0;
-    protected int y = 0;
+    protected double x = 0;
+    protected double y = 0;
 
-    public Point2D() {
-    }
-
-    public Point2D(int x, int y) {
+    public Point2D(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 }
